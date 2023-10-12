@@ -1,0 +1,13 @@
+Robert Le 5/4/2022 robertle1120 MATH 4175
+
+Key: d51145f9a23cd00f9df7591ac48e3bfe46a18c9cf50ad985881d981b3e99e6d0
+
+Low Entropy Plaintext: AABBCCAABBCCBBAABBAABBCCCCBBAAAA
+Ciphertext (ECB): 700fa86f842e53266e87fd6674dfa947
+
+High Entropy Plaintext: 8A9C1273DE9B01388AC2B4E5217A57E0
+Ciphertext (ECB): bc44beaffea6e5bf4a04c7c39b56cf23
+
+There is an obviously difference in entropy between the plaintexts.
+But when encrypted, the entropy difference between the ciphertexts seem negligible, and both could be considered high entropy.
+Therefore, the ciphertext doesn't reveal any information about the entropy of the plaintext, maintaining perfect secrecy.
